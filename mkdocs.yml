@@ -121,3 +121,6 @@ nav:
     - Home: index.md
     - CMAKE:
       - Introduction: 01-cmake/01-introduction.md
+      - Using a Library: 01-cmake/02-using-a-library.md
+      - Variables and Options: 01-cmake/03-variables-and-options.md
+      - Cache in CMake: 01-cmake/04-cache-in-cmake.md

@@ -125,3 +125,4 @@ nav:
       - Variables and Options: 01-cmake/03-variables-and-options.md
       - Cache in CMake: 01-cmake/04-cache-in-cmake.md
       - Configure files: 01-cmake/05-configure-files.md
+      - Some more info: 01-cmake/06-some-more-info.md

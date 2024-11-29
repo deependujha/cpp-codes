@@ -36,6 +36,18 @@ cmake -DCOMPILE_EXECUTABLE=OFF ..
     - We use `-DCMAKE_BUILD_TYPE=Release` option to change the value of `CMAKE_BUILD_TYPE` variable at runtime.
     - This will let CMAKE know that we will relase the library, so perform maximum optimizations.
 
+```bash
+cd debug
+cmake -DCMAKE_BUILD_TYPE=Debug ..
+cmake --build .
+
+# ---- release build ----
+
+cd ../release
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+```
+
 ---
 
 ## Contionals statements

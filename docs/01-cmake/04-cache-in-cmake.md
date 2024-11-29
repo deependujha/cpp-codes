@@ -28,7 +28,7 @@ CMake will use the modified cache values to build the project, skipping unnecess
 
 ## VSCode CMake cache editor
 
-![cmake cache editor](../images/cmake-cache-editor.png)
+![cmake cache editor](../images/cmake/cmake-cache-editor.png)
 
 - Since `CMakeCache.txt` can become quite large, and some keys might also be modified.
 - So, we can use `CMake Cache Editor` extension in VSCode.

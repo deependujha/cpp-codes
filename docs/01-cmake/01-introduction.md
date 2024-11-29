@@ -1,6 +1,6 @@
 # Introduction to CMake
 
-![cmake logo](../images/cmake.jpeg)
+![cmake logo](../images/cmake/cmake.jpeg)
 
 - We used to write makefiles to build our projects. But, for large projects, it becomes difficult to maintain and manage.
 - CMake is a build system generator. It is used to generate build files for various build systems.

@@ -57,6 +57,10 @@ int main() {
 cmake_minimum_required(VERSION 3.21)
 project(cmake-example VERSION 1.0.0 LANGUAGES CXX)
 
+set(CMAKE_CXX_STANDARD          17) # set c++ standard to 17
+set(CMAKE_CXX_STANDARD_REQUIRED ON) # without cpp 17, compiler will give error
+set(CMAKE_CXX_EXTENSIONS        OFF) # it's fine to use c++ 17 without extensions (like, bits/stdc++.h)
+
 add_library(myLib STATIC lib.cpp) # libraryName, STATIC/SHARED, fileName
 
 add_executable(myExecutable main.cpp) # executableName,  fileName

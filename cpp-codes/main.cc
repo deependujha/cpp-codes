@@ -1,26 +1,16 @@
 #include <iostream>
-#include <cmath>
-using namespace std;
 
-struct Point
-{
-    int x;
-    int y;
-    Point(int x, int y) : x(x), y(y) {
-        cout << "constructor called" << endl;
-    }
-    ~Point() {
-        cout << "destructor called" << endl;
+int sum(int a, int b){
+    return a+b;
+}
+
+int main(){
+    std::function<int(int, int)> fn = nullptr;
+    if(!fn){
+        std::cout<<"fn is null.\n";
     }
 
-    void distanceFromOrigin() {
-        cout << "distance from origin: " << sqrt(x * x + y * y) << endl;
-    }
-};
+    fn = sum;
+    std::cout<<"calling fn: "<<fn(2,3)<<"\n";
 
-int main()
-{
-    Point p(1, 2);
-    p.distanceFromOrigin();
-    return 0;
 }

@@ -123,6 +123,11 @@ nav:
       - Structs & Enums:
         - Enums: 00-basics/01-struct-and-enums/01-enum.md
         - Structs: 00-basics/01-struct-and-enums/02-struct.md
+      - Functions:
+        - Intro & Overloading: 00-basics/02-functions/01-intro.md
+        - Function Pointers: 00-basics/02-functions/02-function-pointers.md
+        - Function Variables: 00-basics/02-functions/03-function-variable.md
+        - Lambda Functions: 00-basics/02-functions/04-lambda-functions.md
     - Build Systems:
       - CMAKE:
         - Introduction: 01-cmake/01-introduction.md

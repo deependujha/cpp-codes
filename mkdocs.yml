@@ -119,15 +119,20 @@ extra_javascript:
 nav:
   - C++ Codes:
     - Home: index.md
-    - CMAKE:
-      - Introduction: 01-cmake/01-introduction.md
-      - Using a Library: 01-cmake/02-using-a-library.md
-      - Variables and Options: 01-cmake/03-variables-and-options.md
-      - Cache in CMake: 01-cmake/04-cache-in-cmake.md
-      - Configure files: 01-cmake/05-configure-files.md
-      - Some more info: 01-cmake/06-some-more-info.md
-    - Bavel:
-      - Introduction: 02-bavel/01-intro.md
+    - Basics:
+      - Structs & Enums:
+        - Enums: 00-basics/01-struct-and-enums/01-enum.md
+        - Structs: 00-basics/01-struct-and-enums/02-struct.md
+    - Build Systems:
+      - CMAKE:
+        - Introduction: 01-cmake/01-introduction.md
+        - Using a Library: 01-cmake/02-using-a-library.md
+        - Variables and Options: 01-cmake/03-variables-and-options.md
+        - Cache in CMake: 01-cmake/04-cache-in-cmake.md
+        - Configure files: 01-cmake/05-configure-files.md
+        - Some more info: 01-cmake/06-some-more-info.md
+      - Bavel:
+        - Introduction: 02-bavel/01-intro.md
     - Polymorphism:
       - Dynamic dispatch: polymorphism/01-dynamic-dispatch.md
       - Double dispatch: polymorphism/02-double-dispatch.md
